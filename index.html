@@ -1,0 +1,23 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Palette from Your Photo</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<h1>Generate Color Palette from Photo</h1>
+<form id="upload-form">
+<label for="image-upload">Select a photo:</label>
+<input type="file" id="image-upload" accept="image/*">
+<button type="submit">Generate Palette</button>
+</form>
+<div id="results" class="results-container">
+<div class="image-container"></div>
+<div id="palette-container"></div>
+</div>
+<p id="error-message"></p>
+</body>
+</html>
